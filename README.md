@@ -10,7 +10,7 @@ See Live Demo: https://aditeyapandey.github.io/3DArteryVisualization/
 
 ## Related Github Repos
 
-This project was built in conjuction with our main project CerebroVis. 
+CererbroVis: https://github.com/aditeyapandey/Cerebrovis
 
 ## How to Use With Your Own Data
 
