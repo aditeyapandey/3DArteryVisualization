@@ -126,7 +126,7 @@
 
 
       function fetchCSV(){
-      var url = "https://raw.githubusercontent.com/aditeyapandey/3DArteryVisualization/master/swc_files/BG0002_ColorCoded.CNG.swc";
+      var url = "https://raw.githubusercontent.com/aditeyapandey/3DArteryVisualization/master/swc_files/BG001_ColorCoded.CNG.swc";
       fetch(url)
         .then(function(serverPromise){ 
           serverPromise.text()
@@ -159,25 +159,6 @@
   var gs;
 	window.onload = function() {
 		document.getElementById('swc_input').addEventListener('change', readSwcFile, false);
-    console.log(fetchCSV()); //returns a promise object with resolve value that contains entire github webpage html
-
-		// var urlFile = dataFileName()
-    // console.log(urlFile)
-    // var swcTest = readTextFile("dataanalysis/allscans/"+ urlFile +"/"+ urlFile +"records.swc")
-    // //var swc = swc_parser(document.getElementById("swc").text);
-    // var swc = swc_parser(swcTest)
-    // console.log()
-		// mdata = JSON.parse(document.getElementById("metadata_swc").text);
-		// var s = new SharkViewer({
-		// 	swc: swc, 
-		// 	dom_element: 'container', 
-		// 	center_node: -1, 
-		// 	show_stats: true});
-		// s.init();
-    // //animateByButton(s)
-		// s.animate1(true,"positive");
-    // //s.test()
-    // gs=s;
 	}
 
   function stop()
