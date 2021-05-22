@@ -10,8 +10,7 @@ See Live Demo: https://aditeyapandey.github.io/3DArteryVisualization/
 
 ## Related Github Repos
 
-This project was built in conjuction with our main contribution CerebroVis. 
-
+This project was built in conjuction with our main project CerebroVis. 
 
 ## How to Use With Your Own Data
 
@@ -22,6 +21,8 @@ After you clone the repo, you can also locally use the dataset we have included 
 
 path: data -> allscans -> `<foldername>` ->`<filename>`records.swc
   
-  
+
+## Interaction
+
 
 ## Acknowledgements
