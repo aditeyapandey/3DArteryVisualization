@@ -8,10 +8,20 @@ See Live Demo: https://aditeyapandey.github.io/3DArteryVisualization/
 
 3D Artery Visualization is built using [three.js](https://threejs.org/).
 
-## How to Use
+## Related Github Repos
 
-3D Artery Visualization comes
+This project was built in conjuction with our main contribution CerebroVis. 
 
 
+## How to Use With Your Own Data
+
+To use 3D Artery Visualization, you will need the topology and anatomical properties cerebral arteries as a swc file. In this application, we have included, segemented scans from a public dataset. You can learn more about the segmentation process and access the public dataset on the [Brava](http://cng.gmu.edu/brava/home.php?s=1&name_browser=false) project website.
+
+## Dataset Included
+After you clone the repo, you can also locally use the dataset we have included in the repo.
+
+path: data -> allscans -> `<foldername>` ->`<filename>`records.swc
+  
+  
 
 ## Acknowledgements
