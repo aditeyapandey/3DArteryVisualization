@@ -125,8 +125,8 @@
     }
 
 
-      function fetchCSV(){
-      var url = "https://raw.githubusercontent.com/aditeyapandey/3DArteryVisualization/master/swc_files/BG001_ColorCoded.CNG.swc";
+      function loadDefaultScan(){
+      var url = "https://raw.githubusercontent.com/aditeyapandey/3DArteryVisualization/master/data/allscans/BG0019/BG0019records.swc";
       fetch(url)
         .then(function(serverPromise){ 
           serverPromise.text()
@@ -159,6 +159,7 @@
   var gs;
 	window.onload = function() {
 		document.getElementById('swc_input').addEventListener('change', readSwcFile, false);
+    loadDefaultScan()
 	}
 
   function stop()
