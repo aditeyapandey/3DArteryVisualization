@@ -17,12 +17,20 @@ This project was built in conjuction with our main project CerebroVis.
 To use 3D Artery Visualization, you will need the topology and anatomical properties cerebral arteries as a swc file. In this application, we have included, segemented scans from a public dataset. You can learn more about the segmentation process and access the public dataset on the [Brava](http://cng.gmu.edu/brava/home.php?s=1&name_browser=false) project website.
 
 ## Dataset Included
-After you clone the repo, you can also locally use the dataset we have included in the repo.
+After you clone the repo, you can also locally use the dataset we have included in this repo.
 
 path: data -> allscans -> `<foldername>` ->`<filename>`records.swc
   
 
 ## Interaction
+ ![Screen Shot 2021-05-22 at 11 30 45 AM](https://user-images.githubusercontent.com/8208255/119231928-28d71100-baf1-11eb-9295-4c604776654c.png)
+ 
+Radiologists often use tools that allows them to analyze a 3D brain scan with a set of interaction
+techniques.
+
+Conventional method is a scan from left to right along the center of the brain. Currently our visualization supports a left to right rotation.
+
+However, you can stop the rotation, reverse its direction or rotate the scan in a step wise manner.
 
 
 ## Acknowledgements
