@@ -4,6 +4,8 @@
 
 See Live Demo: 
 
+![Screen Shot 2021-05-22 at 11 06 52 AM](https://user-images.githubusercontent.com/8208255/119231240-d47e6200-baed-11eb-839c-34a5fba4d56f.png)
+
 3D Artery Visualization is built using [three.js](https://threejs.org/).
 
 ## How to Use
