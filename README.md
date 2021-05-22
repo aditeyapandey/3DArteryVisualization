@@ -32,5 +32,7 @@ Conventional method is a scan from left to right along the center of the brain. 
 
 However, you can stop the rotation, reverse its direction or rotate the scan in a step wise manner.
 
-
 ## Acknowledgements
+
+1. The Janelia Farm Research Campus Software Copyright 1.1 Copyright (c) 2014, Howard Hughes Medical Institute, All rights reserved. https://github.com/JaneliaSciComp/SharkViewer
+2. [Brava](http://cng.gmu.edu/brava/home.php?s=1&name_browser=false)
